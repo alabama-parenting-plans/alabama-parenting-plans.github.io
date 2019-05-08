@@ -1,0 +1,129 @@
+<div class="row plans-container">
+    <app-image-header
+        [title]="'Time-sharing Schedules'" 
+        [src]="'../assets/annie-spratt-245122.jpg'"></app-image-header>
+    <!-- <div class="col-xs-12">
+        <h1>Time-sharing Schedules</h1>
+    </div>             -->
+    <div class="col-xs-12">
+        <h1 class="align-center plans-header">Choose appropriate custody type:</h1>
+        <div class="row" style="margin: 10px;">
+            <div class="col-xs-3">
+                <div class="green-custody custody-type-container">
+                    <h1>Joint Physical Custody - Green</h1>
+                    <p class="custody-text">
+                        Physical custody is shared by the parents in a way that assures 
+                        the child frequent and substantial contact with each parent. Joint physical 
+                        custody does not necessarily mean physical custody of equal durations 
+                        of time.
+                    </p>
+                    <div>
+                        <button
+                            class="custody-button"
+                            routerLink="./green/age">See schedules</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="blue-custody custody-type-container">
+                    <h1>Sole Physical Custody - Blue</h1>
+                    <p class="custody-text">
+                        One parent has sole physical custody and the other parent has rights 
+                        of visitation except as otherwise provided by the court.
+                    </p>
+                    <div>
+                        <button
+                            class="custody-button"
+                            routerLink="./blue/age">See schedules</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xs-3">
+                <div class="purple-custody custody-type-container">
+                        <h1>Sole Legal Custody - Purple</h1>
+                        <p class="custody-text">
+                            One parent has sole rights and responsibilities to make major
+                            decisions concerning the child, including, but not limited to, the education of the child,
+                            health care, and religious training.
+                        </p>
+                        <div>
+                            <button
+                                class="custody-button"
+                                routerLink="./purple/age">See schedules</button>
+                        </div>
+    
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div class="red-custody custody-type-container">
+                    <h1>Restricted Custody - Red</h1>
+                    <p class="custody-text">
+                        When a parent's physical access to a child is limited to supervised custody, no 
+                        overnight custody, a suspension of physical contact, or any other 
+                        restrictions on custody determined by the court to be in the best interest 
+                        of the child.
+                    </p>
+                    <div>
+                        <button
+                            class="custody-button"
+                            routerLink="./red">See schedules</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <h1 class="align-center plans-header">Additional schedules:</h1>
+        <div class="row" style="margin: 10px;">
+            <div class="col-xs-4">
+                <div class="add-custody custody-type-container">
+                    <h1>Unique Work Schedules</h1>
+                    <p class="custody-text">
+                        These plans are for parents with unique work
+                        situations that do not fit well with other General Time-Sharing Schedules.
+                    </p>
+                    <div>
+                        <button
+                            class="custody-button"
+                            routerLink="./unique">See schedules</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="add-custody custody-type-container">
+                    <h1>Reunification Schedules</h1>
+                    <p class="custody-text">
+                            When parents with visitation rights reunite with children after a long
+                            separation such as 6 weeks or longer, it is recommended that the
+                            returning parent follows a reunification
+                            plan prior to implementing a regular time-sharing schedule. The reunification plan is particularly
+                            helpful for parents of very young children. The
+                            reunification plan gives the parent and child time to get reacquainted
+                            and to bond without overwhelming the child.
+                    </p>
+                    <div>
+                        <button
+                            class="custody-button"
+                            routerLink="./reunification">See schedules</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="add-custody custody-type-container">
+                    <h1>Blank Schedule</h1>
+                    <p class="custody-text">
+
+                    </p>
+                    <div>
+                        <button
+                            class="custody-button"
+                            href="../assets/plans/green/Green A1.png">Download schedule</button>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>
